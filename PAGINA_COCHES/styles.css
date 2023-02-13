@@ -1,0 +1,228 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    background-image: url("imágenes/mapa-carreteras-Berlin.jpg");
+    background-size: cover;
+    margin: 20px;
+}
+.primera{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+}
+.logo{
+    position: relative;
+    background-image: url("imágenes/logo_portada.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 390px;
+    float: left;
+    top: -90px;
+}
+.contacto{
+    border: 2px solid green;
+    border-radius: 5px;
+    margin: 4px;
+    padding: 5px;
+    position: relative;
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    float: left;
+    background-color:rgb(70, 190, 100);
+}
+.mapa{
+    border: 2px solid green;
+    margin: 4px;
+    padding: 5px;
+    position: relative;
+    background-image: url("imágenes/mapa.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+.mapa:hover{
+    transition: 2s;
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+.formulario{ 
+    position: absolute;
+    border: 2px solid green;
+    background-color:rgb(190, 74, 70);
+    margin-top: 280px ;
+    margin-left: 70px ;
+    padding: 5px;
+    
+    border-radius: 10px;
+    
+    
+}
+.formulario a{
+   
+    text-decoration: none;
+    color: white;
+}
+
+
+.segunda{
+    top: 600px ;
+    position: absolute;
+    left: 5%;
+}
+h2{
+    margin: 4px;
+    padding: 5px;
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid green;
+    background-color:rgb(190, 74, 70); 
+}
+
+.comentarios{
+    border: 2px solid green;
+    border-radius: 5px;
+    margin: 4px;
+    padding: 5px;
+    background-color:rgb(70, 190, 100);
+}
+@media  ( max-width: 1200px){
+    .logo{
+        position: relative;
+        background-image: url("imágenes/logo_portada.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 350px;
+        height: 390px;
+        float: left;
+        top: -90px;
+    }
+    .contacto{
+        border: 2px solid green;
+        border-radius: 5px;
+        margin: 4px;
+        padding: 5px;
+        position: relative;
+        box-sizing: border-box;
+        width: 300px;
+        height: 400px;
+        float: left;
+        background-color:rgb(70, 190, 100);
+       
+    }
+    .formulario{ 
+        position: absolute;
+        border: 2px solid green;
+        background-color:rgb(190, 74, 70);
+        margin-top: 280px ;
+        margin-left: 70px ;
+        padding: 5px;
+        
+        border-radius: 10px;
+        
+        
+    }
+    .mapa{
+        border: 2px solid green;
+        margin: 4px;
+        padding: 5px;
+        position: relative;
+        background-image: url("imágenes/mapa.jpg");
+        background-size: cover;
+        border-radius: 10px;
+        box-sizing: border-box;
+        width: 300px;
+        height: 400px;
+        float: left;
+       
+    }
+    .mapa:hover{
+        border: 2px solid green;
+        margin: 4px;
+        padding: 5px;
+        position: relative;
+        background-image: url("imágenes/mapa.jpg");
+        background-size: cover;
+        border-radius: 10px;
+        box-sizing: border-box;
+        width: 300px;
+        height: 400px;
+        float: left;
+        
+    }
+    .segunda{
+        top: 500px ;
+        position: absolute;
+        left: 0%;
+    }
+}
+@media  ( max-width: 800px){
+    .logo{
+        position: relative;
+        background-image: url("imágenes/logo_portada.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 350px;
+        height: 390px;
+        float: left;
+        top: -90px;
+    }
+    .contacto{
+        border: 2px solid green;
+        border-radius: 5px;
+        margin: 4px;
+        padding: 5px;
+        position: relative;
+        box-sizing: border-box;
+        width: 300px;
+        height: 300px;
+        float: left;
+        background-color:rgb(70, 190, 100);
+        
+    }
+    .formulario{ 
+        position: absolute;
+        border: 2px solid green;
+        background-color:rgb(190, 74, 70);
+        margin-top: 280px ;
+        margin-left: 70px ;
+        padding: 5px;
+        
+        border-radius: 10px;
+        
+        
+    }
+    .mapa{
+        border: 2px solid green;
+        margin: 4px;
+        padding: 5px;
+        position: relative;
+        background-image: url("imágenes/mapa.jpg");
+        background-size: cover;
+        border-radius: 10px;
+        box-sizing: border-box;
+        width: 300px;
+        height: 300px;
+        float: left;
+        
+    }
+    .mapa:hover{
+        transition: 2s;
+        width: 100%;
+        height: 400px;
+        float: left;
+        margin: 0;
+        
+    }
+    .segunda{
+        top: 1200px ;
+        position: absolute;
+        left: 0%;
+    }
+}

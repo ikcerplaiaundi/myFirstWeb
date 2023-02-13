@@ -1,0 +1,226 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background-color: rgb(43, 32, 32);
+    background-image: url("imágenes/motor.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+#buscador {
+    box-sizing: border-box;
+}
+
+input[type=text] {
+    float: left;
+    box-sizing: border-box;
+    display: block;
+    border: 2px solid rgb(70, 190, 100);
+    border-right: 0px;
+    border-radius: 10px;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+input[type=button] {
+    border: 2px solid rgb(70, 190, 100);
+    border-left: 0px;
+    border-radius: 10px;
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+
+
+.logo {
+    position: absolute;
+    display: block;
+    top: -25%;
+    left: 30%;
+    width: 35%;
+
+}
+
+.animacion1 {
+    
+    position: relative;
+    max-width: 80%;
+    padding-left: 33%;
+    padding-top: 15%;
+}
+.animacion2{
+    display: none;
+}
+.animacion1:hover #buscador {
+    z-index: 999;
+}
+
+.animacion1:hover .logo {
+
+    transition: 2s;
+    -moz-transition: 2s;
+    position: absolute;
+    top: calc(-10% - 100%);
+
+
+}
+
+#oferta {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    height: 30%;
+    background-color:  rgb(70, 190, 100);
+    border-top: 5px solid rgba(212, 211, 211, 0.589);
+    text-align: center;
+    margin: auto;
+    padding: 10px 20px;
+
+}
+
+#cards {
+    box-sizing: border-box;
+    display: block;
+    width: 30%;
+    
+    padding: 10PX;
+
+    position: relative;
+    float: left;
+    margin: 1%;
+    border-radius: 30px;
+  
+        background: rgb(212, 211, 211);
+        box-shadow: 5px 5px 10px rgb(88, 88, 88),
+            -5px -5px 10px rgb(255, 255, 255);
+}
+
+#cards:hover {
+    margin-left: 0%;
+    margin-right: 2%;
+    box-shadow: 25px 25px 32px rgb(25, 25, 25),
+        -5px -5px 12px rgb(0, 61, 0);
+}
+
+.card1 {
+    width: 70%;
+    border-radius: 30px;
+}
+
+.card2 {
+
+    width: 70%;
+    border-radius: 30px;
+}
+
+.card3 {
+    width: 70%;
+    border-radius: 30px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+#foro {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 20px;
+    background-color: rgb(70, 190, 100);
+    border-bottom-left-radius: 10PX;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+@media only screen and (max-width: 750px) {
+    
+    body {
+        background-image: url("imágenes/motor.jpg");
+        background-size: 130vh;
+        background-repeat: no-repeat;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .animacion1 {
+      display: none;
+    }
+    .animacion2 {
+        display: initial;
+    }
+    .animacion2 a img{
+        position: relative;
+        left: 0;
+        top: -60px;
+        width:70% ;
+        margin-left: 10%;
+        
+    }
+    #oferta {
+        position: absolute;
+        bottom: 5%;
+        left: 0;
+        right: 0;
+        height: auto;
+        border-color: rgba(240, 248, 255, 0);
+        background-color: rgba(0, 43, 0, 0);
+        text-align: center;
+        margin: auto;
+        padding: 10px 20px;
+    
+    }
+    
+    #cards {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        
+        padding: 10PX;
+    
+        position: initial;
+        float: left;
+        margin: 1%;
+        border-radius: 30px;
+        background: rgb(212, 211, 211);
+        box-shadow: 5px 5px 10px rgb(88, 88, 88),
+            -5px -5px 10px rgb(255, 255, 255);
+    }
+    
+    #cards:hover {
+        margin-left: 0%;
+        margin-right: 2%;
+        box-shadow: 25px 25px 32px rgb(88, 88, 88),
+            -5px -5px 12px rgb(255, 255, 255);
+    }
+    
+    .card1 {
+        width: 140px;
+        height: 100px ;
+        border-radius: 30px;
+    }
+    
+    .card2 {
+    
+        width: 140px;
+        height: 100px ;
+        border-radius: 30px;
+    }
+    
+    .card3 {
+        width: 140px;
+        height: 100px ;
+        border-radius: 30px;
+    }
+}
